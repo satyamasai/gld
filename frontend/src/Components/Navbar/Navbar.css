@@ -1,83 +1,100 @@
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 80px;
-    padding: 0 50px;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    /* color: white; */
-    /* position:fixed; */
-  }
-  .logo{
-    /* position: absolute; */
-width: 99.35px;
-height: 56px;
-/* left: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+  padding: 0 50px;
+ 
+}
+.logo {
+  /* position: absolute; */
+  width: 99.35px;
+  height: 56px;
+  /* left: 70px;
 top: 40px; */
+}
+select {
+  background-color: white;
+  /* margin-left: 5px; */
+}
 
-  }
+.logo img {
+  width: 180px;
+  height: 60px;
+  border-radius: 12px;
+  background-color: teal;
+  background: none;
+}
 
-  .logo img{
-    width: 180px;
-    height: 60px;
-    border-radius: 12px;
-    background-color: teal;
-    background: none;
-  }
-  
-  nav ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-  }
-  
-  nav ul li a {
-    display: block;
-    /* padding: 10px 15px; */
-    color: #000;
-    /* color: white; */
-    text-decoration: none;
-  }
-  
-  .menu-icon {
+nav ul {
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+nav ul li a {
+  /* display: none; */
+  /* padding: 10px 15px; */
+  color: #000;
+  /* color: white; */
+  text-decoration: none;
+}
+
+.menu-icon {
+  display: none;
+}
+.center_box {
+  /* border: 1px solid red; */
+  /* display: flex;  */
+  flex-direction: row;
+  align-items: flex-start;
+  /* padding: 0px; */
+  /* gap: 24px; */
+
+  justify-content: space-around;
+  width: 675px;
+  height: 22px;
+  color: #000;
+}
+
+.ls_btn {
+  width: 200px;
+  height: 50px;
+  color: #3282ad;
+  /* border: 1px solid green; */
+  display: flex;
+  justify-content: space-between;
+}
+.ls_btn > button {
+  width: 50%;
+
+  /* border: 1px solid red; */
+}
+.signup_btn {
+  /* border: 1px solid green; */
+  border-radius: 44px;
+  background-color: #3282ad;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-links {
     display: none;
   }
-  .center_box{
-    border: 1px solid red;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    /* gap: 24px; */
-    
-  
-    width: 675px;
-    height: 22px;
-   
 
+  nav {
+    display: flex;
+    justify-content: space-between;
   }
 
-  @media screen and (max-width: 768px) {
-    .nav-links {
-      display: none;
-    }
-
-    nav {
-        display: flex;
-        justify-content: space-between;
-    
-      }
-      
-
-    .logo img{
-        width: 100px;
-        height: 60px;
-        /* margin-left: 0px; */
-        border-radius: 12px;
-      }
-      /* .logo{
+  .logo img {
+    width: 100px;
+    height: 60px;
+    /* margin-left: 0px; */
+    border-radius: 12px;
+  }
+  /* .logo{
         border: 1px solid red;
         width: 180px;
         height: 60px;
@@ -85,47 +102,37 @@ top: 40px; */
         border-radius: 12px;
       }
        */
-      
-  
-    .menu-icon {
-      display: block;
-      cursor: pointer;
-      color: white;
-    }
-  
-    .mobile {
-      display: flex;
-      flex-direction: column;
-      background-color: #91f1e6e8;
-      position: absolute;
-      top: 60px;
-      left: 0;
-      right: 0;
-      z-index: 1;
-    }
-  
-    .mobile li {
-      text-align: center;
-      margin: 10px 0;
-    }
-  
-    .mobile li a {
-      padding: 10px;
-      font-size: 1.2rem;
-      color: #000;
-      text-decoration: none;
-    }
+
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+    color: black;
   }
-  
 
+  .mobile {
+    display: flex;
+    flex-direction: column;
+    background-color: #91f1e6e8;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
 
+  .mobile li {
+    text-align: center;
+    margin: 10px 0;
+  }
 
+  .mobile li a {
+    padding: 10px;
+    font-size: 1.2rem;
+    color: #000;
+    text-decoration: none;
+  }
 
-
-
-
-
-
-  
-
- 
+  .ls_btn {
+    visibility: hidden;
+  }
+}
