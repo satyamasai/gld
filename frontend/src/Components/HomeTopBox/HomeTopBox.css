@@ -63,7 +63,7 @@
   align-items: flex-start;
   padding: 16px 32px;
   /* gap: 10px; */
- position: absolute;
+  position: absolute;
   width: 174px;
   height: 64px;
   background: #ffffff;
@@ -80,47 +80,88 @@
 }
 
 .right_img {
- /* border: 1px solid red; */
+  /* border: 1px solid red; */
   width: 421.17px;
   height: 425.51px;
   /* display: flex; */
-  
-
 }
 /* ------------css for tab------------ */
 /* ------------------------------------------- */
-@media all and (min-width: 380px) and (max-width: 780px) {
+@media all and (min-width: 480px) and (max-width: 900px) {
   .inner_left_div {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 221px;
     height: 265px;
-   
+
     font-size: 28px;
     line-height: 0%;
   }
 
-
   .right_img {
-  border: 1px solid red;
-    width: 321.17px;
-    height: 355.51px;
-  
-  
-   
+    /* border: 1px solid red; */
+    width: 270px;
+    height: 355px;
   }
 
   .home_title {
-   
     font-size: 32px;
     line-height: 50px;
     /* or 90px */
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     align-items: center;
     justify-content: flex-start;
     color: #3a3a3a;
     flex-wrap: wrap;
   }
-  
+}
 
+/* -----------mobile css----------- */
+@media all and (min-width: 80px) and (max-width: 479px) {
+  .inner_left_div {
+    /* border: 1px solid blue; */
+    width: 221px;
+    height: 265px;
+
+    font-size: 28px;
+    line-height: 0%;
+  }
+
+  .right_img {
+    /* border: 1px solid red; */
+    width: 321.17px;
+    height: 355.51px;
+
+    display: none;
+  }
+
+  .home_title {
+    font-size: 32px;
+    line-height: 50px;
+    /* or 90px */
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #3a3a3a;
+    flex-wrap: wrap;
+  }
+
+  .visit_btn_box {
+    /* position: absolute; */
+    width: 157px;
+    height: 54px;
+    /* border: 1px solid red; */
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 140%;
+    /* or 50px */
+
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    justify-content: space-around;
+  }
 }

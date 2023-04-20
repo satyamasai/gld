@@ -4,7 +4,7 @@ import { Button, Input } from "@chakra-ui/react";
 const FlightBooking = () => {
   return (
     <div className="flight_booking">
-      <div className="flightbookintext">Where are you flying</div>
+      <div className="flight_bookin_text">Where are you flying</div>
       <div className="input_box_div">
         <Input placeholder="From - To" />
         <Input placeholder="Trip" />

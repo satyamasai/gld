@@ -1,7 +1,7 @@
 .flight_booking {
 width: 90%;
 margin: auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -20,26 +20,26 @@ margin: auto;
 margin-top: 20px;}
 
 .input_box_div {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
-  gap: 24px;
+ 
+  gap: 10px;
 
-  width: 1178px;
+  width: 100%;
   height: 62px;
 
   /* Inside auto layout */
-
   flex: none;
   order: 1;
   align-self: stretch;
   flex-grow: 0;
+  margin: auto;
 }
 
 .show_flight_btn_div {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -47,8 +47,9 @@ margin-top: 20px;}
   padding: 0px;
   gap: 24px;
 
-  width: 1178px;
+  width: 95%;
   height: 48px;
+  margin: auto;
 
   /* Inside auto layout */
 
@@ -77,4 +78,9 @@ margin-top: 20px;}
   order: 0;
   flex-grow: 0;
   color: white;
+}
+
+.flight_bookin_text{
+  text-align: left;
+  font-weight: bolder;
 }

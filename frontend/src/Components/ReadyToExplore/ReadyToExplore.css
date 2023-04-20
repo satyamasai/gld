@@ -49,3 +49,25 @@ text-align: left;
     width: 183px;
 height: 50px;
 }
+
+
+
+/* ------------css for tab------------ */
+/* ------------------------------------------- */
+@media all and (min-width: 480px) and (max-width: 900px) {
+
+    .rtoe {
+       display: none;
+      }
+  
+  
+  }
+  
+
+  /* -----------mobile css----------- */
+@media all and (min-width: 80px) and (max-width: 479px) {
+    .rtoe {
+        display: none;
+       }
+   
+}
