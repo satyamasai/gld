@@ -3,5 +3,17 @@
   background: linear-gradient(180deg, #E5F8FE 14.25%, rgba(255, 255, 255, 0) 100%);
 }
 
+.footer_div{
+  /* border: 1px solid red; */
+  width: 100%;
+background-image: url("https://img.freepik.com/premium-vector/world-map-silhouette-digital-simple-grey-map-flat-style-vector-realistic-illustration-earth-isolated-white-background_176516-1332.jpg");
+background-color: white;
+background-repeat: no-repeat;
+/* justify-self: flex-end; */
+background-position:75% 30%;
+background-color:#41a5c1b0 ;
+background-size: 100% ;
+}
+
 
 

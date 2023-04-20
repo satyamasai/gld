@@ -9,7 +9,9 @@ function App() {
     <div className="App">
     <Navbar/>
      <AllRoutes/>
+     <div className='footer_div'>
      <Footer/>
+     </div>
     </div>
   );
 }
