@@ -1,0 +1,16 @@
+.island_stays{
+width: 90%;
+margin: auto;
+/* border: 1px solid red; */
+height: auto;
+margin-top: 20px;
+}
+.island_heading {
+    margin-top: 10px;
+    /* border: 1px solid green; */
+  }
+  .island_heading > h1 {
+    font-size: 24px;
+    /* border: 1px solid red; */
+    font-weight: bolder;
+  }

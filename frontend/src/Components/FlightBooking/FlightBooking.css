@@ -1,85 +1,80 @@
-.flight_booking{
+.flight_booking {
+width: 90%;
+margin: auto;
     border: 1px solid red;
-    display: flex;
-flex-direction: column;
-justify-content: center;
-/* align-items: flex-end; */
-padding: 48px 24px;
-gap: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: flex-end; */
+  padding: 48px 24px;
+  gap: 32px;
 
-/* position: absolute; */
-height: 228px;
-/* left: 5.12%;
-right: 5.12%;
-top: 865px; */
+  /* position: absolute; */
+  height: 228px;
 
-background: #FFFFFF;
-/* shadow effect-blue */
+  /* background: #ffffff; */
+  /* shadow effect-blue */
 
-box-shadow: 0px 4px 25px rgba(141, 198, 211, 0.15);
-border-radius: 16px;
+  box-shadow: 0px 4px 25px rgba(141, 198, 211, 0.15);
+  border-radius: 16px;
+margin-top: 20px;}
+
+.input_box_div {
+  border: 1px solid green;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+
+  width: 1178px;
+  height: 62px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
 }
 
-.input_box_div{
-border: 1px solid green;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-    gap: 24px;
-    
-    width: 1178px;
-    height: 62px;
-    
-    
-    /* Inside auto layout */
-    
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
+.show_flight_btn_div {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
 
+  width: 1178px;
+  height: 48px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
 }
+.show_flights_btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 4px;
 
-.show_flight_btn_div{
-    border: 1px solid red;
-    display: flex;
-flex-direction: row;
-justify-content: flex-end;
-align-items: center;
-padding: 0px;
-gap: 24px;
+  width: 144px;
+  height: 48px;
 
-width: 1178px;
-height: 48px;
+  background: #3282ad;
+  border-radius: 4px;
 
+  /* Inside auto layout */
 
-/* Inside auto layout */
-
-flex: none;
-order: 2;
-align-self: stretch;
-flex-grow: 0;
-}
-.show_flights_btn{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 8px 16px;
-    gap: 4px;
-    
-    width: 144px;
-    height: 48px;
-    
-    background: #3282AD;
-    border-radius: 4px;
-    
-    /* Inside auto layout */
-    
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    color: white;
-
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  color: white;
 }
