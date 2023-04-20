@@ -8,6 +8,8 @@ nav {
   /* border: 1px solid red; */
   width: 100%;
   z-index: 20;
+ background-color: rgba(204, 250, 250, 0.897);
+
   
  
 }
@@ -19,7 +21,7 @@ nav {
 top: 40px; */
 }
 select {
-  background-color: white;
+  background-color: rgba(204, 250, 250, 0.897);;
   /* margin-left: 5px; */
 }
 
