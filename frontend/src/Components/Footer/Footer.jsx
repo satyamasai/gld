@@ -50,6 +50,7 @@ const ListHeader = ({ children }) => {
 export default function Footer() {
   return (
     <Box
+    
      bgColor={"#41a5c1b0"}
       color={useColorModeValue("gray.700", "gray.200")}
     >

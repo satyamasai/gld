@@ -6,6 +6,7 @@ import BestPackages from "../Components/BestPackage/BestPackages";
 import IslandStays from "../Components/IslandStays/IslandStays";
 import OurClients from "../Components/OurClients/OurClients";
 import ReadyToExplore from "../Components/ReadyToExplore/ReadyToExplore";
+import BlackBox from "../Components/BlackBox/BlackBox";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <IslandStays />
       <ReadyToExplore />
       <OurClients />
+      <BlackBox/>
     </div>
   );
 };

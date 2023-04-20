@@ -1,0 +1,25 @@
+.blackbox{
+    width: 1060px;
+    height: 269px;
+    left: calc(50% - 1060px/2 - 5px);
+    top: 4715px;
+    
+    background: #000000;
+    mix-blend-mode: normal;
+    border-radius: 10px;
+    margin: auto;
+    position: relative;
+    top: 30px;
+    left: 2%;
+
+}
+
+.mobile_circle{
+    background: linear-gradient(90deg, #44A4BE 0%, #D6F1FF 100%);
+    width: 220px;
+    height: 218.94px;
+    border-radius: 9999px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
