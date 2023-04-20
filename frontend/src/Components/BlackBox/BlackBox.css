@@ -1,5 +1,5 @@
 .blackbox{
-    width: 1060px;
+    width: 90%;
     height: 269px;
     left: calc(50% - 1060px/2 - 5px);
     top: 4715px;
@@ -16,7 +16,7 @@
 
 .mobile_circle{
     background: linear-gradient(90deg, #44A4BE 0%, #D6F1FF 100%);
-    width: 220px;
+    /* width: 90%; */
     height: 218.94px;
     border-radius: 9999px;
     text-align: center;

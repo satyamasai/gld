@@ -9,7 +9,7 @@
   position: absolute;
   width: 468px;
   height: 355px;
-  left: 64px;
+  left: 50px;
   top: 232px;
   text-align: left;
 }
@@ -17,7 +17,7 @@
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 700;
-  font-size: 64px;
+  font-size: 58px;
   line-height: 90px;
   /* or 90px */
   /* border: 1px solid red; */
@@ -53,44 +53,74 @@
   justify-content: space-around;
 }
 
+.discover_btn {
+  box-sizing: border-box;
 
-.discover_btn{
-    box-sizing: border-box;
+  /* Auto layout */
 
-/* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 32px;
+  /* gap: 10px; */
+ position: absolute;
+  width: 174px;
+  height: 64px;
+  background: #ffffff;
+  /* primary-color */
 
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 16px 32px;
-/* gap: 10px; */
-
-position: absolute;
-width: 174px;
-height: 64px;
-/* left: 70px;
-top: 648px; */
-
-background: #FFFFFF;
-/* primary-color */
-
-border: 2px solid #3282AD;
-border-radius: 5px;
-color: #3282AD;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 32px;
+  border: 2px solid #3282ad;
+  border-radius: 5px;
+  color: #3282ad;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
 }
 
-.right_img{
-    position: absolute;
-    width: 421.17px;
-    height: 425.51px;
-    left: 773px;
-    top: 147px;
-    
-    /* border: 1px solid red; */
-    background: url(girl.jpg);
+.right_img {
+ /* border: 1px solid red; */
+  width: 421.17px;
+  height: 425.51px;
+  /* display: flex; */
+  
+
+}
+/* ------------css for tab------------ */
+/* ------------------------------------------- */
+@media all and (min-width: 380px) and (max-width: 780px) {
+  .inner_left_div {
+    border: 1px solid blue;
+    width: 221px;
+    height: 265px;
+   
+    font-size: 28px;
+    line-height: 0%;
+  }
+
+
+  .right_img {
+  border: 1px solid red;
+    width: 321.17px;
+    height: 355.51px;
+  
+  
+   
+  }
+
+  .home_title {
+   
+    font-size: 32px;
+    line-height: 50px;
+    /* or 90px */
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #3a3a3a;
+    flex-wrap: wrap;
+  }
+  
+
 }

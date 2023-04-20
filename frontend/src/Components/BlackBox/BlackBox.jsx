@@ -32,7 +32,7 @@ const BlackBox = () => {
             alt=""
           />
         </Box>
-        <Box mt={"30px"} w={"22%"} h="190px" >
+        <Box mt={"30px"} w={"220px"} h="190px" >
           <div className="mobile_circle"></div>
         </Box>
       </Flex>
