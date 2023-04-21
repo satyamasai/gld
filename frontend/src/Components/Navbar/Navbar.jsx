@@ -3,7 +3,7 @@ import "./Navbar.css";
 import { FaAlignJustify, FaTimes } from "react-icons/fa";
 import gollogo from "./gol-logo.jpg";
 import { Box, Flex } from "@chakra-ui/react";
-
+import {Link} from "react-router-dom"
 function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
 
@@ -34,8 +34,12 @@ function Navbar() {
       </Box>
 
       <Flex className="ls_btn">
-        <button>Login</button>
-        <button className="signup_btn">Signup</button>
+       
+        <button> <Link to="/login">Login</Link></button>
+        
+        
+        <button className="signup_btn"><Link to="/signup">Signup </Link></button>
+       
       </Flex>
 
       <ul className={toggleMenu ? "nav-links mobile" : "nav-links"}>

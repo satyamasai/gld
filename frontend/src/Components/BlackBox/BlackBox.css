@@ -23,3 +23,25 @@
     display: flex;
     justify-content: center;
 }
+
+
+/* ------------css for tab------------ */
+/* ------------------------------------------- */
+@media all and (min-width: 480px) and (max-width: 900px) {
+    .blackbox{
+     display: none;
+    }
+  
+  
+  
+  }
+  
+  
+  /* -----------mobile css----------- */
+  @media all and (min-width: 80px) and (max-width: 479px) {
+    .blackbox{
+        display: none;
+       }
+  
+  
+  }
