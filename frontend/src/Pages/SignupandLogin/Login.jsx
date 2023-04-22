@@ -16,8 +16,7 @@ import {
 export default function SimpleCard() {
   return (
     <Flex
-    mt={100}
-      minH={'100vh'}
+       minH={'100vh'}
       align={'center'}
       justify={'center'}
       bg={useColorModeValue('gray.50', 'gray.800')}>

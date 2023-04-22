@@ -6,6 +6,7 @@ import Signup from "./SignupandLogin/Signup";
 import Login from "./SignupandLogin/Login";
 import AdminDashboard from "./Admin/AdminDashboard";
 import { Box } from "@chakra-ui/react";
+import AdminLogin from "./Admin/AdminLogin";
 
 
 
@@ -17,7 +18,8 @@ const AllRoutes = () => {
       <Route path="/signup" element={<Signup />} />
       <Route path="/login" element={<Login />} />
       <Route path="/admin" element={<AdminDashboard />} /> 
-      <Route path="*" element={<Box w='100vw' mt={200} h={'400px'} >Error 404....</Box>} /> 
+      <Route path="/admin/login" element={<AdminLogin />} /> 
+      <Route path="*" element={<Box w='100vw' mt={200} h={'400px'} >Page not found....</Box>} /> 
       
      
     </Routes>
