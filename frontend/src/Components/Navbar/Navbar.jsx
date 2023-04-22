@@ -63,7 +63,7 @@ function Navbar() {
         </button>
       </Flex>
 
-      <ul className={toggleMenu ? "nav-links mobile" : "nav-links"}>
+      <ul  className={toggleMenu ? "nav-links mobile" : "nav-links"}>
         <li>
           <a href="/">Home</a>
         </li>
@@ -75,7 +75,7 @@ function Navbar() {
         </li>
         <li>
           {gldadminkey ? (
-            <Button onClick={handleLogout} colorScheme="red">Admin Logout</Button>
+            <Button  onClick={handleLogout } colorScheme="red">Admin Logout</Button>
           ) : (
             <a href="/admindashboard">Admin Dashboard</a>
           )}
