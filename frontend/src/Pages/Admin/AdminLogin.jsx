@@ -7,7 +7,7 @@ const AdminLogin = () => {
     <div className='admin_login'>
     <Box>Login to access dashboard</Box>
     <Box>Admin only!</Box>
-    <Login/>
+    <Login />
     
     </div>
   )

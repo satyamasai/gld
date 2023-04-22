@@ -4,6 +4,7 @@ import { FaAlignJustify, FaTimes } from "react-icons/fa";
 import gollogo from "./gol-logo.jpg";
 import { Box, Flex } from "@chakra-ui/react";
 import {Link} from "react-router-dom"
+import AdminDashboard from './../../Pages/Admin/AdminDashboard';
 function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
 
@@ -33,6 +34,7 @@ function Navbar() {
         <a href="/">About Us</a>
         <a href="/">Gol</a>
         <a href="/">Support</a>
+        <a href="/admindashboard">Admin Dashboard</a>
       </Box>
 
       <Flex className="ls_btn">
@@ -53,6 +55,9 @@ function Navbar() {
         </li>
         <li>
           <a href="/">Signup</a>
+        </li>
+        <li>
+          <a href="/admindashboard">Admin Dashboard</a>
         </li>
       </ul>
       <div className="menu-icon" onClick={handleToggle}>
