@@ -3,7 +3,8 @@ const { connection } = require("./Config/db");
 const { heroImageModel } = require("./Models/heroimage.model");
 
 const app = express();
-const cors= require('cors')
+const cors= require('cors');
+const { adminController } = require("./Routes/admin.route");
 app.use(express.json());
 app.use(cors())
 app.get("/", (req, res) => {
@@ -32,7 +33,9 @@ app.get("/getHeroImage", async (req, res) => {
   
 
 
-// --------------------------------
+// ------------ADMIN-------LOGINNNN--------------------
+
+app.use("/",adminController)
 
 app.listen(3113, async () => {
   try {
