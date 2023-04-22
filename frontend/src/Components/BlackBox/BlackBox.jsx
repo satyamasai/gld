@@ -33,7 +33,8 @@ const BlackBox = () => {
           />
         </Box>
         <Box mt={"30px"} w={"220px"} h="190px" >
-          <div className="mobile_circle"></div>
+          <div className="mobile_circle">
+          <img src="https://static.vecteezy.com/system/resources/previews/008/850/474/original/3d-render-mobile-phone-png.png" alt="mobile" /></div>
         </Box>
       </Flex>
     </div>

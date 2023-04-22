@@ -14,7 +14,9 @@ function Navbar() {
   return (
     <nav>
       <div className="logo">
+        <a href="/">
         <img src={gollogo} alt="logo" />
+        </a>
       </div>
       <Box display={{ base: "none", md: "flex" }} className="center_box">
         <a href="/">Find Reservations</a>

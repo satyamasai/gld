@@ -23,6 +23,12 @@
     display: flex;
     justify-content: center;
 }
+.mobile_circle>img{
+    position: relative;
+    bottom: 100px;
+    height: 140%;
+    /* background-color: white; */
+}
 
 
 /* ------------css for tab------------ */
